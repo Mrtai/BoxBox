@@ -15,12 +15,6 @@
     "_children": [
       {
         "__id__": 2
-      },
-      {
-        "__id__": 11
-      },
-      {
-        "__id__": 13
       }
     ],
     "_tag": -1,
@@ -69,13 +63,19 @@
       },
       {
         "__id__": 8
+      },
+      {
+        "__id__": 10
+      },
+      {
+        "__id__": 12
       }
     ],
     "_tag": -1,
     "_active": true,
     "_components": [
       {
-        "__id__": 10
+        "__id__": 14
       }
     ],
     "_prefab": null,
@@ -379,34 +379,18 @@
     "_atlas": null
   },
   {
-    "__type__": "cc.Canvas",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 2
-    },
-    "_enabled": true,
-    "_designResolution": {
-      "__type__": "cc.Size",
-      "width": 640,
-      "height": 960
-    },
-    "_fitWidth": false,
-    "_fitHeight": true
-  },
-  {
     "__type__": "cc.Node",
     "_name": "vuong1",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 1
+      "__id__": 2
     },
     "_children": [],
     "_tag": -1,
     "_active": true,
     "_components": [
       {
-        "__id__": 12
+        "__id__": 11
       }
     ],
     "_prefab": null,
@@ -436,8 +420,8 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 380,
-      "y": 139.8
+      "x": 60,
+      "y": -340.2
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -451,7 +435,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 11
+      "__id__": 10
     },
     "_enabled": true,
     "_spriteFrame": {
@@ -477,14 +461,14 @@
     "_name": "vuong2",
     "_objFlags": 0,
     "_parent": {
-      "__id__": 1
+      "__id__": 2
     },
     "_children": [],
     "_tag": -1,
     "_active": true,
     "_components": [
       {
-        "__id__": 14
+        "__id__": 13
       }
     ],
     "_prefab": null,
@@ -514,8 +498,8 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 234,
-      "y": 141
+      "x": -86,
+      "y": -339
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -529,7 +513,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 13
+      "__id__": 12
     },
     "_enabled": true,
     "_spriteFrame": {
@@ -549,5 +533,21 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_atlas": null
+  },
+  {
+    "__type__": "cc.Canvas",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "_designResolution": {
+      "__type__": "cc.Size",
+      "width": 640,
+      "height": 960
+    },
+    "_fitWidth": false,
+    "_fitHeight": true
   }
 ]
